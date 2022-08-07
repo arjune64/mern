@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node backend/server.js",
-    "dev":"nodemon backend/server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "author": "arjun",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^6.5.1"
   },
   "devDependencies": {
